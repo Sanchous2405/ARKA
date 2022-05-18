@@ -1,0 +1,99 @@
+.merchants{
+    height: 1700px;
+    width: 100%;
+    background-color: #EEEEEE;
+}
+.love{
+    padding-top: 148px;
+    padding-bottom: 59px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #011F3A;
+}
+.reviews{
+    width: 1200px;
+    height: 1500px;
+    margin: 0 auto;
+    background-color: white;
+}
+.store{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 820px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.comments{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 58px;
+    padding-top: 58px;
+}
+.feedback{
+    width: 400px;
+    padding-left: 106px;
+}
+.text{
+    width: 395px;
+    padding-bottom: 12px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+
+
+    color: #011F3A;
+
+}
+.response{
+    display: flex;
+    flex-direction: row;
+}
+.story{
+    padding-top: 45px;
+    padding-bottom: 133px;
+    margin: 0 auto;
+    padding: 10px 45px;
+    height: 50px;
+    width: 180px;
+    background: white;
+    color: #3D5675;
+    border: 1px solid  #3D5675;
+    border-radius: 44px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+}
+.story:hover{
+
+    background: #86a9d4;
+    transition: 1.5s;
+}
+.story:active{
+
+    transform: scale(2, 0.5);
+}
+.comments2{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.feedback2{
+    width: 370px;
+    margin-right: 110px;
+}

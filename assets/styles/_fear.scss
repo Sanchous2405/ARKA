@@ -1,0 +1,77 @@
+.fear{
+    width: 100%;
+    height: 730px;
+    background-color: #EEEEEE;
+}
+.scope{
+    width: 1200px;
+    height: 610px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFCA3A;
+}
+.chance{
+    padding-top: 110px;
+    padding-left: 155px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.break{
+    padding-right: 238px;
+    padding-top: 12px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #011F3A;
+
+}
+.power{
+    width: 500px;
+    padding-right: 230px;
+    padding-top: 12px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+
+    text-align: center;
+
+    color: #3D5675;
+
+}
+.request{
+    padding: 19px 48px;
+    height: 56px;
+    width: 260px;
+    background: white;
+    color: #3D5675;
+    border: 1px solid #3D5675;
+    border-radius: 44px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+}
+.request:hover{
+
+    background: #86a9d4;
+    transition: 1.5s;
+}
+.request:active{
+
+    transform: scale(2, 0.5);
+}
